@@ -7,7 +7,15 @@
     "build": "cd frontend-nirina && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-transform-private-property-in-object"
+    ]
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
+  }
 }
