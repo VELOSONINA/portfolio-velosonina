@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "backend de portfolio-velosonina",
   "main": "server.mjs",
-  "scripts": {
-    "start": "node --experimental-modules server.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "scripts": {
+      "start": "node --experimental-modules server.mjs",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev:server": "node --experimental-modules server.mjs"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
