@@ -1,5 +1,5 @@
 import express from 'express';
-const router = express.Router;
+const router = express.Router();
 import Product from '../models/Product.mjs';
 
 router.get('/', async (req, res) => {
