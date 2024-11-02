@@ -1,4 +1,4 @@
-import loadEnv from '../utils/loadEnv';
+import loadEnv from '../utils/loadEnv.mjs';
 import mongoose from 'mongoose';
 
 loadEnv();
