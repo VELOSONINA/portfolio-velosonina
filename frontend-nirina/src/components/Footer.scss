@@ -1,0 +1,36 @@
+@use "../assets/Styles/variables.scss";
+
+.footer {
+   
+    padding: initial;
+    
+    .row {
+        width: 100%;
+        background-color: black;
+    }
+    p, ul{
+        color: #f2f5f7;
+    }
+    .footer .footer-text {
+        color: white;
+      }
+      
+}
+
+@media (max-width: 992px){
+    .row {
+        display: block;
+        margin: initial;
+    }
+    p, ul {
+        margin-bottom: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: block;
+        margin: initial;
+    }
+}
