@@ -6,3 +6,6 @@
 // Importation des variables et styles
 @use './assets/Styles/variables.scss';
 
+// Importation des composants
+@use './components/Header.scss';
+@use './components/Footer.scss'
